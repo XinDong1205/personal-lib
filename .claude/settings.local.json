@@ -54,7 +54,8 @@
       "Read(//c/Program Files/claude/**)",
       "Bash(git *)",
       "Bash(rm -v _*.txt diag_bap.py services/summarizer.py)",
-      "Bash(rm -rv __pycache__)"
+      "Bash(rm -rv __pycache__)",
+      "Bash(cd \"C:\\\\\\\\Users\\\\\\\\ecc_x\\\\\\\\OneDrive\\\\\\\\桌面\\\\\\\\personal-lib\")"
     ]
   }
 }
