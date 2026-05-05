@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(pip list *)",
+      "Bash(tee /tmp/pip_output.txt)",
+      "Bash(tee /tmp/install_status.txt)",
+      "Bash(cmd *)",
+      "Bash(powershell *)",
+      "Bash(/c/Program Files/Python314/python *)"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "skill_name": "academic-paper-analyzer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我详细分析这篇论文：ATRC_An_Anonymous_Traceable_and_Revocable_Credential_System_Using_Blockchain_for_VANETs.pdf，给我一份完整的技术分析报告",
+      "expected_output": "生成一份完整的技术分析报告，包含论文信息、研究目标、背景痛点、系统架构（含ASCII图）、核心技术原理拆解、实验评估、优缺点分析和未来方向共8个章节文件",
+      "files": ["ATRC_An_Anonymous_Traceable_and_Revocable_Credential_System_Using_Blockchain_for_VANETs.pdf"],
+      "expectations": [
+        "报告包含论文基本信息（标题、作者、发表年份/会议）",
+        "报告包含核心研究目标章节，明确阐述了论文要解决的核心问题",
+        "报告包含研究背景与痛点分析，列出了现有方法的局限性",
+        "报告包含系统架构章节，使用ASCII框图展示整体架构",
+        "报告包含核心技术原理拆解，至少分析了3个关键技术点",
+        "报告包含实验与评估章节，对实验结果进行了分析",
+        "报告包含优缺点分析章节，指出了方案的不足和适用边界",
+        "报告包含未来研究方向章节",
+        "报告整体使用中文撰写，专业术语标注了英文原文",
+        "技术分析具有深度，非简单翻译摘要"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "这篇论文的匿名性、可追溯性和可撤销性三个特性具体是怎么实现的？帮我深入拆解一下这三部分的技术细节",
+      "expected_output": "对论文的匿名、可追溯、可撤销三个核心机制进行深度技术拆解，包含算法流程、协议交互和数学原理",
+      "files": ["ATRC_An_Anonymous_Traceable_and_Revocable_Credential_System_Using_Blockchain_for_VANETs.pdf"],
+      "expectations": [
+        "详细解释了匿名性（Anonymity）的实现机制",
+        "详细解释了可追溯性（Traceability）的实现机制",
+        "详细解释了可撤销性（Revocability）的实现机制",
+        "技术拆解包含协议流程或算法描述",
+        "解释中涉及了密码学原语或数学构造",
+        "分析具有技术深度，非泛泛而谈"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "画一下这篇论文提出的系统整体架构，说明各个实体之间的关系、交互流程和模块划分",
+      "expected_output": "包含清晰的ASCII系统架构图、实体关系图、时序交互图和模块功能说明",
+      "files": ["ATRC_An_Anonymous_Traceable_and_Revocable_Credential_System_Using_Blockchain_for_VANETs.pdf"],
+      "expectations": [
+        "包含系统整体架构的ASCII框图",
+        "列出了所有参与实体及其角色",
+        "描述了实体之间的交互流程（如时序图）",
+        "说明了系统的模块划分及各模块功能",
+        "架构图格式清晰、对齐良好、可读性强",
+        "架构描述准确反映了论文的实际设计"
+      ]
+    }
+  ]
+}

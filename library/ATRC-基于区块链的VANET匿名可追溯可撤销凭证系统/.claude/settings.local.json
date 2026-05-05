@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir C:\\\\Users\\\\ecc_x\\\\OneDrive\\\\桌面\\\\blockchain\\\\ATRC_An_Anonymous_Traceable_and_Revocable_Credential_System_Using_Blockchain_for_VANETs *)",
+      "Read(//c/Users/ecc_x/.claude/**)",
+      "Read(//c/Users/ecc_x/.claude/plugins/**)",
+      "Bash(cmd *)",
+      "Bash(python3 -c \"import PyPDF2; print\\('PyPDF2 available'\\)\")",
+      "Bash(python -c \"import PyPDF2; print\\('PyPDF2 available'\\)\")",
+      "Bash(python3 -c \"import pdfplumber; print\\('pdfplumber available'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber available'\\)\")",
+      "Bash(python3 -c \"import fitz; print\\('pymupdf available'\\)\")",
+      "Bash(python -c \"import fitz; print\\('pymupdf available'\\)\")",
+      "Bash(pip list *)",
+      "WebSearch",
+      "Bash(python *)"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<script>
+  (function(){
+    var t = localStorage.getItem("theme");
+    if (!t && window.matchMedia("(prefers-color-scheme:dark)").matches) t = "dark";
+    if (t) document.documentElement.dataset.theme = t;
+  })();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>个人图书馆</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div id="app">
+  <header id="app-header"></header>
+  <div id="app-body">
+    <aside id="sidebar"></aside>
+    <main id="main-content">
+      <div id="main-loading" class="loading-skeleton">加载中...</div>
+    </main>
+  </div>
+  <div id="detail-overlay" class="detail-overlay hidden"></div>
+</div>
+
+<div id="toast-container"></div>
+
+<script type="module" src="/static/js/app.js"></script>
+</body>
+</html>
